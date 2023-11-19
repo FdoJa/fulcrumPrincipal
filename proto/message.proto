@@ -37,10 +37,11 @@ message Recepcion {
 }
 
 message Log {
-    string accion = 1;
-    string sectorAfectado = 2;
-    string baseAfectada = 3;
-    string nuevoValor = 4;
+    string tiempo = 1;
+    string accion = 2;
+    string sectorAfectado = 3;
+    string baseAfectada = 4;
+    string nuevoValor = 5;
 }
 
 message LogList {
